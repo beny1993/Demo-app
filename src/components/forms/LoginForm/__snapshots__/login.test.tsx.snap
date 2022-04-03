@@ -1,0 +1,288 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when change password form render Login Form Snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="bg-white rounded-md tracking-wide mb-3 relative"
+      >
+        <div
+          class="text-xl align-right font-bold mb-5 text-right"
+        >
+          ورود
+        </div>
+        <form
+          class="ant-form ant-form-vertical"
+        >
+          <div
+            class="flex flex-col w-full"
+          >
+            <div
+              class="flex-col"
+            >
+              <div
+                class="w-full flex flex-col"
+              >
+                <div
+                  class="ant-row ant-form-item flex-1"
+                >
+                  <div
+                    class="ant-col ant-form-item-label"
+                  >
+                    <label
+                      class="ant-form-item-required"
+                      for="username"
+                      title="ایمیل"
+                    >
+                      ایمیل
+                    </label>
+                  </div>
+                  <div
+                    class="ant-col ant-form-item-control"
+                  >
+                    <div
+                      class="ant-form-item-control-input"
+                    >
+                      <div
+                        class="ant-form-item-control-input-content"
+                      >
+                        <input
+                          class="ant-input rounded-md h-12"
+                          id="username"
+                          placeholder="example@domain.com"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex flex-col w-full"
+            >
+              <div
+                class="w-full flex flex-col"
+              >
+                <div
+                  class="ant-row ant-form-item flex-1"
+                >
+                  <div
+                    class="ant-col ant-form-item-label"
+                  >
+                    <label
+                      class="ant-form-item-required"
+                      for="password"
+                      title="رمز عبور"
+                    >
+                      رمز عبور
+                    </label>
+                  </div>
+                  <div
+                    class="ant-col ant-form-item-control"
+                  >
+                    <div
+                      class="ant-form-item-control-input"
+                    >
+                      <div
+                        class="ant-form-item-control-input-content"
+                      >
+                        <input
+                          class="ant-input undefined h-12"
+                          id="password"
+                          placeholder="رمز عبور"
+                          type="password"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex flex-col w-full"
+            >
+              <button
+                class="ant-btn ant-btn-primary w-full px-4 rounded text-white h-10 font-bold bg-blue text-md mt-2"
+                type="submit"
+              >
+                <span>
+                  ورود
+                </span>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="bg-white rounded-md tracking-wide mb-3 relative"
+    >
+      <div
+        class="text-xl align-right font-bold mb-5 text-right"
+      >
+        ورود
+      </div>
+      <form
+        class="ant-form ant-form-vertical"
+      >
+        <div
+          class="flex flex-col w-full"
+        >
+          <div
+            class="flex-col"
+          >
+            <div
+              class="w-full flex flex-col"
+            >
+              <div
+                class="ant-row ant-form-item flex-1"
+              >
+                <div
+                  class="ant-col ant-form-item-label"
+                >
+                  <label
+                    class="ant-form-item-required"
+                    for="username"
+                    title="ایمیل"
+                  >
+                    ایمیل
+                  </label>
+                </div>
+                <div
+                  class="ant-col ant-form-item-control"
+                >
+                  <div
+                    class="ant-form-item-control-input"
+                  >
+                    <div
+                      class="ant-form-item-control-input-content"
+                    >
+                      <input
+                        class="ant-input rounded-md h-12"
+                        id="username"
+                        placeholder="example@domain.com"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex flex-col w-full"
+          >
+            <div
+              class="w-full flex flex-col"
+            >
+              <div
+                class="ant-row ant-form-item flex-1"
+              >
+                <div
+                  class="ant-col ant-form-item-label"
+                >
+                  <label
+                    class="ant-form-item-required"
+                    for="password"
+                    title="رمز عبور"
+                  >
+                    رمز عبور
+                  </label>
+                </div>
+                <div
+                  class="ant-col ant-form-item-control"
+                >
+                  <div
+                    class="ant-form-item-control-input"
+                  >
+                    <div
+                      class="ant-form-item-control-input-content"
+                    >
+                      <input
+                        class="ant-input undefined h-12"
+                        id="password"
+                        placeholder="رمز عبور"
+                        type="password"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex flex-col w-full"
+          >
+            <button
+              class="ant-btn ant-btn-primary w-full px-4 rounded text-white h-10 font-bold bg-blue text-md mt-2"
+              type="submit"
+            >
+              <span>
+                ورود
+              </span>
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

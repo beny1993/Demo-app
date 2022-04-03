@@ -1,0 +1,16 @@
+html,
+body {
+  font-family: Helvetica !important;
+}
+
+svg {
+  vertical-align: baseline !important;
+}
+
+.mapboxgl-map {
+  width: auto !important;
+}
+
+.mapboxgl-control-container {
+  display: none;
+}

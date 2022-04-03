@@ -1,0 +1,30 @@
+/** TODO: Remove this style and use tailwindcss */
+.ant-input {
+  border-radius: 5px;
+}
+
+.ant-select-selector {
+  height: 48px !important;
+  border-radius: 5px !important;
+}
+
+.ant-select-selection-item {
+  margin-top: 7px;
+}
+
+.ant-form-item-label
+  > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+  content: '' !important;
+}
+
+.ant-form-item-label > label {
+  color: #929292;
+}
+
+.ant-btn {
+  border: none;
+}
+
+.ant-collapse-content-box {
+  padding: 0 !important;
+}
