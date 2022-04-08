@@ -18,8 +18,7 @@ const NotFound = () => {
         </div>
         <p className="text-4xl mt-16">Page not found</p>
         <p className="max-w-xs text-center mt-3 text-gray-400">
-          صفحه مورد نظر یافت نشد، با کلیک بر روی لینک زیر به صفحه اصلی بازگردید.
-        </p>
+          The Page is not Found yet       </p>
         <Link href="/">
           <div className="w-56">
             <Button
@@ -28,7 +27,7 @@ const NotFound = () => {
               loading={loading}
               onClick={() => setLoading(true)}
             >
-              صفحه اصلی
+              Main Page
             </Button>
           </div>
         </Link>

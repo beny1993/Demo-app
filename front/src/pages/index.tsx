@@ -10,6 +10,8 @@ import { useFeed, useSpaces } from '@tribeplatform/react-sdk/hooks'
 import { simplifyPaginatedResult } from "@tribeplatform/react-sdk/utils";
 import { Post } from "@tribeplatform/gql-client/types";
 import Card from '../components/atoms/Cards/Card';
+import { Parallax, ParallaxLayer } from '@react-spring/parallax';
+
 
 const Title = styled.h1`
   color: blue;
@@ -44,28 +46,23 @@ const Home = (props) => {
         <meta name="description" content="welcome to Demo App" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="w-full">
-        <section>
-          <Row justify='center' >
-            <Col flex={3} className="flex justify-center">
-              <Image src="/images/welcome.jpg" width={500} height={500}></Image>
-            </Col>
-            <Col flex={2} className="flex justify-center ">
-              <div className='flex flex-col items-baseline justify-center'>
-                <Title className="text-white font-bold text-4xl align-baseline">Welcom To my Blog</Title>
-                <Typography.Text mark className='text-2xl'>in this blog you can see posts and comment from tribe applicaiton </Typography.Text>
-              </div>
-            </Col>
-          </Row >
-        </section>
-        <section className='flex flex-row flex-wrap px-10 justify-between items-center'>
-          {
-            posts?.map(post => <Card title={post.title} description={post.shortContent} avatar={post.owner.member.name} />
-            )
-          }
+      <Parallax pages={2}>
+        <ParallaxLayer offset={0} speed={2} >
+          <div className='w-full relative  z-10 h-full'>
+            <Image src="/images/welcome.jpg" layout="fill" />
+          </div>
+        </ParallaxLayer>
+        <ParallaxLayer offset={1} speed={1}>
+          <Typography.Text mark className=" text-bold font-bold text-5xl bg-[url('/images/bg-back.jpg')] " >These are the posts which you can see in Tribe</Typography.Text>
+          <section className='flex flex-row flex-wrap px-10 justify-between items-center relative' >
+            {
+              posts?.map(post => <Card title={post.title} description={post.shortContent} avatar={post.owner.member.name} key={post.id} />
+              )
+            }
 
-        </section>
-      </div >
+          </section>
+        </ParallaxLayer>
+      </Parallax>
     </div >
   );
 }

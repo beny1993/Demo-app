@@ -3,8 +3,9 @@ body,
 body > div:first-child,
 div#__next,
 div#__next > div {
-  height: unset !important;
+  /* height: unset !important; */
   background-color: #190e2899;
+  overflow: hidden;
 }
 
 svg {
