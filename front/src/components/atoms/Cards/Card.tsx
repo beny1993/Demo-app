@@ -1,6 +1,7 @@
 import { Avatar, Card } from 'antd'
 import Meta from 'antd/lib/card/Meta'
 import React from 'react'
+import Button from '../Button/Buttton';
 
 type Props = {
     img?: string;
@@ -18,10 +19,15 @@ export default function Cards({ img, title, description, avatar, }: Props) {
                 className="my-8 rounded-xl "
             >
                 <Meta
-                    avatar={<Avatar size={{ xs: 24, sm: 32, md: 40, lg: 64, xl: 80, xxl: 100 }}
-                    >{avatar}</Avatar>}
+                    avatar={
+                        <Avatar size={{ xs: 24, sm: 32, md: 40, lg: 64, xl: 80, xxl: 100 }}
+                        >{avatar}</Avatar>
+                    }
                     title={title}
-                    description={<div dangerouslySetInnerHTML={{ __html: description as string }} />}
+                    description={
+                        <div dangerouslySetInnerHTML={{ __html: description as string }} />
+                    }
+
                 />
             </Card>
         </>
