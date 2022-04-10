@@ -51,10 +51,9 @@ const Home = (props) => {
         <meta name="description" content="welcome to Demo App" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <section onClick={() => setOf(!of)} className={of ? 'opacity-0 transition-opacity	' : 'text-[#555] transition-opacity z-10 text-center items-center top-0 bg-[#333] cursor-pointer font-bold flex h-full min-h-full min-w-full overflow-hidden fixed w-full hover:text-shadow-md'}>
-        <div className={!of ? 'w-3/6 font-bold justify-end' : 'opacity-0'} >¡WELC</div>
-        <span className='justify-end' style={{ width: of ? '100%' : "0px" }}></span>
-        <div className={!of ? 'w-3/6 font-bold justify-start' : 'opacity-0'}  >OME!</div>
+      <section onClick={() => setOf(true)} className={'text-[#555]  z-10 top-0 cursor-pointer  flex h-full min-h-full min-w-full overflow-hidden fixed w-full '}>
+        <div className={!of ? 'w-3/6 font-bold justify-end text-5xl text-right bg-[#333] z-10 h-full items-center flex  hover:text-shadow-md' : ' ease-in-out	duration-1000	-translate-x-full transition-transform w-3/6 font-bold justify-end text-5xl text-right bg-[#333] z-10 h-full items-center flex  hover:text-shadow-md'} >¡WELC</div>
+        <div className={!of ? 'w-3/6 font-bold justify-start text-5xl text-left bg-[#333] z-10 h-full items-center flex hover:text-shadow-md' : ' ease-in-out duration-1000	translate-x-full transition-transform w-3/6 font-bold justify-start text-5xl text-left bg-[#333] z-10 h-full items-center flex hover:text-shadow-md'}  >OME!</div>
       </section>
       <div className="z-0">
         <Typography.Text mark className=" text-bold font-bold text-5xl">These are the posts which you can see in Tribe</Typography.Text>
